@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <>
       <Sidebar />
-      <div className="ml-[72px] lg:ml-72 p-2 container">
+      <div className="ml-[72px] lg:ml-72 p-2 w-100vw">
         <Outlet />
       </div>
     </>
