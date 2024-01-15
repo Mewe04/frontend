@@ -22,17 +22,17 @@ const ImageInput = () => {
   });
 
   return (
-    <div className="flex flex-col h-[50vh] p-5 justify-between w-full bg-white rounded-md">
-      <p className="text-center font-semibold text-lg md:text-xl">Загрузите ваш файл</p>
-      <p className="text-center font-thin text-xs mt-2">Файл должен быть формата Jpeg, png...</p>
+    <div className="flex flex-col h-[50vh] p-5 justify-between w-full rounded-md text-center">
+      <p className="font-semibold text-lg md:text-xl">Загрузите ваш файл</p>
+      <p className="font-thin text-xs mt-2">Файл должен быть формата Jpeg, png...</p>
       <div
         {...getRootProps({
           className:
             'mt-4 w-full h-full flex flex-col justify-center items-center cursor-pointer border border-dashed border-[#E2E8F0] rounded-md'
         })}>
         <input {...getInputProps({ name: 'image' })} />
-        <img src={bg} className="max-w-1/3 mx-auto mt-4" />
-        <div className="text-slate-400 md:text-md text-center mt-4 text-sm flex flex-col gap-2">
+        <img src={bg} className="max-w-1/3 mt-4" />
+        <div className="text-slate-400 md:text-md mt-4 text-sm flex flex-col gap-2">
           <p>Перетащите изображение сюда</p>
           <p>Или</p>
           <p>Нажмите для выбора</p>
