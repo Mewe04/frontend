@@ -37,7 +37,7 @@ const Family = () => {
           <Button>Найти</Button>
         </div>
       </div>
-      <div className="flex flex-auto gap-5 p-5 bg-white rounded-3xl border border-[#E2E8F0] overflow-x-auto">
+      <div className="flex flex-auto gap-5 p-5 bg-white rounded-3xl border border-[#E2E8F0] overflow-x-auto scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-slate-700 scrollbar-track-slate-300">
         <table className="w-[100vw] divide-y divide-gray-200">
           <thead>
             <tr>

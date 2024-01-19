@@ -6,10 +6,15 @@ import Profile from '../pages/profile/Profile';
 import Family from '../pages/family/Family';
 import Services from '../pages/services/Services';
 import Reports from '../pages/reports/Reports';
+import Home from 'components/pages/home/Home';
 
 const router = createBrowserRouter([
   {
     path: '/',
+    element: <Home />
+  },
+  {
+    path: '/dashboard',
     element: <Layout />,
     children: [
       { index: true, element: <Profile /> },
